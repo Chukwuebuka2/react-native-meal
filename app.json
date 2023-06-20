@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "third-project",
+    "name": "My Recipe Book",
     "slug": "third-project",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,16 +16,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codedadi.thirdproject"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.codedadi.thirdproject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8298e464-bc95-495f-9cd9-4aa552c29786"
+      }
     }
   }
 }
